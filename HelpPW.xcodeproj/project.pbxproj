@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DFDAAA73B92414B2AEB2CC8 /* libPods-HelpPW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8F6D58E9C05A829BF8C426 /* libPods-HelpPW.a */; };
 		79330E5A1C802AD9001D0B64 /* icon_baby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79330E591C802AD9001D0B64 /* icon_baby@2x.png */; };
 		79330E5D1C802CA8001D0B64 /* InforChangeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79330E5C1C802CA8001D0B64 /* InforChangeTableViewCell.m */; };
 		79330E5F1C804909001D0B64 /* mother@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79330E5E1C804909001D0B64 /* mother@2x.png */; };
@@ -352,6 +353,8 @@
 		79E65D4B1C85BE7E00C1EF31 /* FoodCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E65D4A1C85BE7E00C1EF31 /* FoodCustomTableViewCell.m */; };
 		79E65D4E1C85C6AA00C1EF31 /* FoodDetaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E65D4D1C85C6AA00C1EF31 /* FoodDetaiViewController.m */; };
 		79E65D501C85CB6A00C1EF31 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E65D4F1C85CB6A00C1EF31 /* back@2x.png */; };
+		84AEE9CDF89A2BD78A1F1ABB /* libPods-HelpPWUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF82B21498AF0304305BCE99 /* libPods-HelpPWUITests.a */; };
+		DEAB127C147801F52F18DBF3 /* libPods-HelpPWTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70147509C6975013437BA3FA /* libPods-HelpPWTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -372,6 +375,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BD5AD814D06120A8E0720B6 /* Pods-HelpPWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpPWTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelpPWTests/Pods-HelpPWTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0D3B4E701D12C5D500705FF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../Downloads/FBSDKCoreKit-master/README.md"; sourceTree = "<group>"; };
 		0DA9CCBA1D119A6A0078E7E6 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		0DA9CCBC1D119A750078E7E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -382,6 +386,8 @@
 		0DA9CCC61D119CF30078E7E6 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		0DA9CCC81D119D050078E7E6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		0DA9CCCA1D119DAB0078E7E6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2E9A039785A7255F9A197BE2 /* Pods-HelpPWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpPWUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelpPWUITests/Pods-HelpPWUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70147509C6975013437BA3FA /* libPods-HelpPWTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelpPWTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79330E591C802AD9001D0B64 /* icon_baby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_baby@2x.png"; sourceTree = "<group>"; };
 		79330E5B1C802CA8001D0B64 /* InforChangeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InforChangeTableViewCell.h; sourceTree = "<group>"; };
 		79330E5C1C802CA8001D0B64 /* InforChangeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InforChangeTableViewCell.m; sourceTree = "<group>"; };
@@ -790,6 +796,12 @@
 		79E65D4C1C85C6AA00C1EF31 /* FoodDetaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetaiViewController.h; sourceTree = "<group>"; };
 		79E65D4D1C85C6AA00C1EF31 /* FoodDetaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetaiViewController.m; sourceTree = "<group>"; };
 		79E65D4F1C85CB6A00C1EF31 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		81DEB6E22EA67188D7D57B40 /* Pods-HelpPWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpPWTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelpPWTests/Pods-HelpPWTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B8F6D58E9C05A829BF8C426 /* libPods-HelpPW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelpPW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F04A8DC7D009D1A486CABB /* Pods-HelpPWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpPWUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelpPWUITests/Pods-HelpPWUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF82B21498AF0304305BCE99 /* libPods-HelpPWUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelpPWUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7CA6FEDD60CBC358242F14 /* Pods-HelpPW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpPW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelpPW/Pods-HelpPW.debug.xcconfig"; sourceTree = "<group>"; };
+		EB70EE40AADAF3ED2683CC42 /* Pods-HelpPW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpPW.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelpPW/Pods-HelpPW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -798,6 +810,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				798B9F211C57954000393656 /* libsqlite3.0.tbd in Frameworks */,
+				1DFDAAA73B92414B2AEB2CC8 /* libPods-HelpPW.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,6 +818,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAB127C147801F52F18DBF3 /* libPods-HelpPWTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,12 +826,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AEE9CDF89A2BD78A1F1ABB /* libPods-HelpPWUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F170FA2CCC7B3259B45F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC7CA6FEDD60CBC358242F14 /* Pods-HelpPW.debug.xcconfig */,
+				EB70EE40AADAF3ED2683CC42 /* Pods-HelpPW.release.xcconfig */,
+				0BD5AD814D06120A8E0720B6 /* Pods-HelpPWTests.debug.xcconfig */,
+				81DEB6E22EA67188D7D57B40 /* Pods-HelpPWTests.release.xcconfig */,
+				2E9A039785A7255F9A197BE2 /* Pods-HelpPWUITests.debug.xcconfig */,
+				B5F04A8DC7D009D1A486CABB /* Pods-HelpPWUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		79500BB71C8813A000D6C3E5 /* Third */ = {
 			isa = PBXGroup;
 			children = (
@@ -963,6 +991,7 @@
 				798B9ED51C570CA700393656 /* HelpPWUITests */,
 				798B9EAF1C570CA700393656 /* Products */,
 				9E1EE57725FE5DADE61A9D34 /* Frameworks */,
+				07F170FA2CCC7B3259B45F70 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1656,6 +1685,9 @@
 				0DA9CCBE1D119A810078E7E6 /* CoreGraphics.framework */,
 				0DA9CCBC1D119A750078E7E6 /* SystemConfiguration.framework */,
 				0DA9CCBA1D119A6A0078E7E6 /* libiconv.2.4.0.tbd */,
+				8B8F6D58E9C05A829BF8C426 /* libPods-HelpPW.a */,
+				70147509C6975013437BA3FA /* libPods-HelpPWTests.a */,
+				CF82B21498AF0304305BCE99 /* libPods-HelpPWUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2401,6 +2433,7 @@
 		};
 		798B9EDC1C570CA700393656 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7CA6FEDD60CBC358242F14 /* Pods-HelpPW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2478,6 +2511,7 @@
 		};
 		798B9EDD1C570CA700393656 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB70EE40AADAF3ED2683CC42 /* Pods-HelpPW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2555,6 +2589,7 @@
 		};
 		798B9EDF1C570CA700393656 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD5AD814D06120A8E0720B6 /* Pods-HelpPWTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelpPWTests/Info.plist;
@@ -2567,6 +2602,7 @@
 		};
 		798B9EE01C570CA700393656 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DEB6E22EA67188D7D57B40 /* Pods-HelpPWTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelpPWTests/Info.plist;
@@ -2579,6 +2615,7 @@
 		};
 		798B9EE21C570CA700393656 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9A039785A7255F9A197BE2 /* Pods-HelpPWUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HelpPWUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2591,6 +2628,7 @@
 		};
 		798B9EE31C570CA700393656 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F04A8DC7D009D1A486CABB /* Pods-HelpPWUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HelpPWUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
