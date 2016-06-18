@@ -42,23 +42,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     NSUserDefaults *uf = [NSUserDefaults standardUserDefaults];
 //    [uf setBool:NO forKey:@"haveDate"];
 
