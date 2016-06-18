@@ -2439,7 +2439,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HelpPW/PrefixHeader.pch";
 				INFOPLIST_FILE = HelpPW/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -2517,7 +2516,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HelpPW/PrefixHeader.pch";
 				INFOPLIST_FILE = HelpPW/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
