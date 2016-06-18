@@ -13,8 +13,10 @@
 #import "InforChangeTableViewCell.h"
 #import "FoodMenuTableViewCell.h"
 #import "FoodDetaiViewController.h"
+#import "UMSocial.h"
+#import "UMSocialSnsService.h"
 
-@interface RemindViewController ()<UIPickerViewDataSource,UIPickerViewDelegate,UITableViewDataSource,UITableViewDelegate,FoodMenuDelegate>
+@interface RemindViewController ()<UIPickerViewDataSource,UIPickerViewDelegate,UITableViewDataSource,UITableViewDelegate,FoodMenuDelegate,UMSocialUIDelegate>
 @property (nonatomic, strong) UIPickerView *cyclePickerV; // 周期选择
 @property (nonatomic, strong) UIView *cycleView;
 @property (nonatomic, assign) BOOL yesOrNo;
@@ -171,11 +173,16 @@
 //  分享按钮
 - (void)thirdShare:(UINavigationItem *)bar {
 //    NSLog(@"第三方分享");
-    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"暂不支持第三方，敬请期待恩ing  (*^__^*) 嘻嘻……" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"好哒" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-    }];
-    [alertC addAction:action];
-    [self presentViewController:alertC animated:YES completion:nil];
+    [UMSocialData defaultData].extConfig.title = @"sina";
+    [UMSocialData defaultData].extConfig.sinaData.urlResource.url = @"";
+    [UMSocialSnsService presentSnsIconSheetView:self appKey:@"2579478634" shareText:@"123455666" shareImage:nil shareToSnsNames:@[UMShareToWechatSession,UMShareToWechatTimeline,UMShareToSina,UMShareToQQ,UMShareToQzone] delegate:self];
+    
+    
+//    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"暂不支持第三方，敬请期待恩ing  (*^__^*) 嘻嘻……" preferredStyle:UIAlertControllerStyleAlert];
+//    UIAlertAction *action = [UIAlertAction actionWithTitle:@"好哒" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+//    }];
+//    [alertC addAction:action];
+//    [self presentViewController:alertC animated:YES completion:nil];
 
 }
 

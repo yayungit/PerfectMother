@@ -11,6 +11,9 @@
 #import "HomeViewController.h"
 #import "RESideMenu.h"
 #import "LeftViewController.h"
+#import "UMSocial.h"
+#import "UMSocialSinaSSOHandler.h"
+#import "UMSocialSnsService.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +23,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //    设置友盟key
+    [UMSocialData setAppKey:@"56a0d1e1e0f55a1207001219"];
+    [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:@"2579478634" secret:@"74ed06086722c53adb70eeb1783e3aa2" RedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
@@ -57,10 +64,17 @@
         self.window.rootViewController = na;
     }
     
+    
     return YES;
 }
 
-
+-(BOOL)application:(UIApplication *)app openURL:(nonnull NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(nonnull id)annotation {
+    BOOL result = [UMSocialSnsService handleOpenURL:url];
+    if (result == FALSE) {
+        
+    }
+    return result;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
