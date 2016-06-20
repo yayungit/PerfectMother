@@ -1,12 +1,15 @@
 PODS:
+  - BaiduMapKit (3.0.0)
   - UMengSocialCOM (5.2.1)
 
 DEPENDENCIES:
+  - BaiduMapKit
   - UMengSocialCOM (~> 5.2.1)
 
 SPEC CHECKSUMS:
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
   UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
 
-PODFILE CHECKSUM: dc034360fa108d11babbade399fcec59c66fd259
+PODFILE CHECKSUM: ed85b918152e9aaa3959ec0002491b45ffd5c04d
 
 COCOAPODS: 1.0.1

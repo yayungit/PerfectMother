@@ -17,5 +17,5 @@ target 'HelpPW' do
     # Pods for testing
   end
 pod 'UMengSocialCOM', '~> 5.2.1'
-
+pod 'BaiduMapKit'
 end
