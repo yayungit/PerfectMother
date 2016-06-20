@@ -8,11 +8,26 @@
 
 #import "ShareViewController.h"
 #import "RESideMenu.h"
-@interface ShareViewController ()
+#import "BMKMapComponent.h"
 
+@interface ShareViewController ()<BMKMapViewDelegate>
+@property (nonatomic, strong) BMKMapView *mapView;
 @end
 
 @implementation ShareViewController
+
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [_mapView viewWillAppear];
+    _mapView.delegate = self;
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [_mapView viewWillDisappear];
+    _mapView.delegate = nil;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,11 +40,16 @@
     self.view.backgroundColor = [UIColor cloudsColor];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"fanhui.png"] style:UIBarButtonItemStyleDone target:self action:@selector(presentLeftMenuViewController:)];
     
-    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"暂不支持第三方，敬请期待恩ing  (*^__^*) 嘻嘻……" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"好哒" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-    }];
-    [alertC addAction:action];
-    [self presentViewController:alertC animated:YES completion:nil];
+//    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"暂不支持第三方，敬请期待恩ing  (*^__^*) 嘻嘻……" preferredStyle:UIAlertControllerStyleAlert];
+//    UIAlertAction *action = [UIAlertAction actionWithTitle:@"好哒" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+//    }];
+//    [alertC addAction:action];
+//    [self presentViewController:alertC animated:YES completion:nil];
+    
+    // 上面注释掉，为了写一个地图
+    BMKMapView *mapView = [[BMKMapView alloc] initWithFrame:self.view.frame];
+    self.mapView = mapView;
+    self.view = mapView;
     
 }
 #pragma mark - Configuring the view’s layout behavior

@@ -14,7 +14,12 @@
 #import "UMSocial.h"
 #import "UMSocialSinaSSOHandler.h"
 #import "UMSocialSnsService.h"
+#import "BaiduMapAPI_Map/BMKMapComponent.h"
+
+
 @interface AppDelegate ()
+
+@property (nonatomic, strong) BMKMapManager *mapManger;
 
 @end
 
@@ -27,6 +32,11 @@
     [UMSocialData setAppKey:@"56a0d1e1e0f55a1207001219"];
     [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:@"2579478634" secret:@"74ed06086722c53adb70eeb1783e3aa2" RedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
 
+    _mapManger = [[BMKMapManager alloc] init];
+    BOOL start = [_mapManger start:@"8279835" generalDelegate:nil];
+    if (!start) {
+        NSLog(@"Fialed!!!!");
+    }
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
