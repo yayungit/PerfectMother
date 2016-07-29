@@ -2645,6 +2645,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E9A039785A7255F9A197BE2 /* Pods-HelpPWUITests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = HelpPWUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.HelpPWUITests;
@@ -2658,6 +2659,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5F04A8DC7D009D1A486CABB /* Pods-HelpPWUITests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = HelpPWUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.HelpPWUITests;

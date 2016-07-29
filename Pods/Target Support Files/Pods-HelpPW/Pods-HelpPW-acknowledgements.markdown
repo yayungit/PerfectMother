@@ -27,6 +27,10 @@ SOFTWARE.
 
 
 
+## BugHD
+
+©2015 fir.im · BugHD · Made with love :).
+
 ## UMengSocialCOM
 
 Copyright 2011 - 2016 UMeng.com. All rights reserved.

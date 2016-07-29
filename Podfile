@@ -18,4 +18,5 @@ target 'HelpPW' do
   end
 pod 'UMengSocialCOM', '~> 5.2.1'
 pod 'BaiduMapKit'
+pod 'BugHD', '~> 1.3.3'
 end

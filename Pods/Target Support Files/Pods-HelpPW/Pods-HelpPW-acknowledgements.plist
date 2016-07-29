@@ -44,6 +44,14 @@ SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>&#169;2015 fir.im &#183; BugHD &#183; Made with love :).</string>
+			<key>Title</key>
+			<string>BugHD</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>Copyright 2011 - 2016 UMeng.com. All rights reserved.
 </string>
 			<key>Title</key>
